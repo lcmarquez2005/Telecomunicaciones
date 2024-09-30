@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Medios de Comunicación en Telecomunicaciones</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #004080;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .section-title {
+            color: #004080;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .subsection-title {
+            color: #0059b3;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .accordion-button:not(.collapsed) {
+            color: #fff;
+            background-color: #004080;
+        }
+        .accordion-button {
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1>Tipos de Medios de Comunicación en Telecomunicaciones</h1>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container my-5">
+        <!-- Sección 2: Medios de Transmisión y sus Características -->
+        <section id="medios-transmision">
+            <h2 class="section-title">2. Medios de Transmisión y sus Características</h2>
+
+            <!-- 2.1 Medios Guiados -->
+            <div>
+                <h3 class="subsection-title">2.1 Medios Guiados</h3>
+                <p>Los medios guiados utilizan un conductor físico para transmitir señales. Son adecuados para entornos controlados donde se requiere alta fiabilidad y velocidad.</p>
+
+                <!-- 2.1.1 Par Trenzado, Coaxial y Fibra Óptica -->
+                <div class="accordion" id="accordion2-1-1">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading2-1-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-1-1" aria-expanded="false" aria-controls="collapse2-1-1">
+                                2.1.1 Par Trenzado, Coaxial y Fibra Óptica
+                            </button>
+                        </h4>
+                        <div id="collapse2-1-1" class="accordion-collapse collapse" aria-labelledby="heading2-1-1" data-bs-parent="#accordion2-1-1">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Par Trenzado:</strong> Consiste en dos conductores de cobre trenzados entre sí para reducir la interferencia electromagnética. Se utiliza ampliamente en redes telefónicas y LAN.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Coaxial:</strong> Tiene un conductor central rodeado por un aislante, una malla metálica y una cubierta exterior. Ofrece mayor ancho de banda y resistencia a interferencias, utilizado en televisión por cable y redes de datos.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Fibra Óptica:</strong> Utiliza fibras de vidrio o plástico para transmitir señales de luz. Proporciona alta velocidad y capacidad de transmisión a largas distancias con mínima pérdida de señal.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Fin Acordeón 2.1.1 -->
+            </div>
+
+            <!-- 2.2 Medios No Guiados -->
+            <div>
+                <h3 class="subsection-title">2.2 Medios No Guiados</h3>
+                <p>Los medios no guiados transmiten señales a través del aire o el vacío sin necesidad de conductores físicos, permitiendo comunicación inalámbrica.</p>
+
+                <!-- 2.2.1 Radiofrecuencia, Microondas, Satélite e Infrarrojo -->
+                <div class="accordion" id="accordion2-2-1">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading2-2-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-2-1" aria-expanded="false" aria-controls="collapse2-2-1">
+                                2.2.1 Radiofrecuencia, Microondas, Satélite e Infrarrojo
+                            </button>
+                        </h4>
+                        <div id="collapse2-2-1" class="accordion-collapse collapse" aria-labelledby="heading2-2-1" data-bs-parent="#accordion2-2-1">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Radiofrecuencia:</strong> Utiliza ondas de radio para la transmisión de datos inalámbrica en redes móviles, WiFi y Bluetooth. Ofrece flexibilidad y movilidad.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Microondas:</strong> Emplea frecuencias más altas que las radiofrecuencias para transmisiones de larga distancia y enlaces punto a punto, como en comunicaciones telefónicas y de datos.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Satélite:</strong> Permite comunicaciones a nivel global mediante satélites en órbita geoestacionaria. Es esencial para televisión, internet y comunicaciones militares.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Infrarrojo:</strong> Utiliza luz infrarroja para comunicaciones de corto alcance, como en controles remotos y transferencias de datos entre dispositivos cercanos.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Fin Acordeón 2.2.1 -->
+            </div>
+
+            <!-- 2.3 Métodos para la Detección y Corrección de Errores -->
+            <div>
+                <h3 class="subsection-title">2.3 Métodos para la Detección y Corrección de Errores</h3>
+                <p>Estos métodos garantizan la integridad de los datos transmitidos, detectando y corrigiendo errores que puedan ocurrir durante la transmisión.</p>
+
+                <!-- 2.3.1 VRC, LRC y CRC -->
+                <div class="accordion" id="accordion2-3-1">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading2-3-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-3-1" aria-expanded="false" aria-controls="collapse2-3-1">
+                                2.3.1 VRC, LRC y CRC
+                            </button>
+                        </h4>
+                        <div id="collapse2-3-1" class="accordion-collapse collapse" aria-labelledby="heading2-3-1" data-bs-parent="#accordion2-3-1">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>VRC (Verificación de Redundancia Vertical):</strong> Añade un bit de paridad a cada byte de datos para detectar errores de un solo bit.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>LRC (Verificación de Redundancia Longitudinal):</strong> Calcula un byte de paridad para cada columna de bytes en un bloque de datos, permitiendo detectar errores en múltiples bits a lo largo de diferentes bytes.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>CRC (Verificación de Redundancia Cíclica):</strong> Utiliza divisiones polinómicas para detectar errores más complejos en los datos, siendo más robusto que VRC y LRC.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Fin Acordeón 2.3.1 -->
+            </div>
+
+            <!-- 2.4 Control de Flujo -->
+            <div>
+                <h3 class="subsection-title">2.4 Control de Flujo</h3>
+                <p>El control de flujo gestiona la velocidad de transmisión de datos entre emisor y receptor para prevenir la sobrecarga de búferes y asegurar una comunicación eficiente.</p>
+
+                <!-- 2.4.1 Tipos: Asentimiento, Ventanas Deslizantes. Por Hardware o Software, de Lazo Abierto o Cerrado -->
+                <div class="accordion" id="accordion2-4-1">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header" id="heading2-4-1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2-4-1" aria-expanded="false" aria-controls="collapse2-4-1">
+                                2.4.1 Tipos: Asentimiento, Ventanas Deslizantes. Por Hardware o Software, de Lazo Abierto o Cerrado
+                            </button>
+                        </h4>
+                        <div id="collapse2-4-1" class="accordion-collapse collapse" aria-labelledby="heading2-4-1" data-bs-parent="#accordion2-4-1">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <strong>Asentimiento (ACK/NACK):</strong> El receptor envía una confirmación (ACK) o rechazo (NACK) de los datos recibidos, permitiendo al emisor ajustar la transmisión.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Ventanas Deslizantes:</strong> Permiten la transmisión de múltiples paquetes antes de recibir confirmaciones, optimizando el uso del canal y aumentando la eficiencia.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Control de Flujo por Hardware:</strong> Utiliza señales físicas (como líneas de control en cables) para gestionar la transmisión de datos.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Control de Flujo por Software:</strong> Implementa mecanismos de control de flujo a nivel de protocolo, como en TCP.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Lazo Abierto:</strong> El emisor transmite datos sin recibir confirmaciones inmediatas del receptor.
+                                    </li>
+                                    <li class="list-group-item">
+                                        <strong>Lazo Cerrado:</strong> El emisor espera confirmaciones del receptor antes de enviar más datos, asegurando un flujo controlado.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Fin Acordeón 2.4.1 -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias (Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
